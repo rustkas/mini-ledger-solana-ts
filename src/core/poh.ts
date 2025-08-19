@@ -1,6 +1,11 @@
 // используем встроенный модуль Node.js для SHA256.
 import { createHash } from 'crypto';
 
+/**
+ * Proof of History (PoH)
+ * PoH is used in conjunction with proof of stake to drastically increase 
+ * the efficiency of verifying and recording transactions on the Solana blockchain.
+ */
 export class PoH {
     // хранит текущее состояние в виде Buffer (байты).  
     private state: Buffer;
