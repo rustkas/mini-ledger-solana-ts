@@ -1,5 +1,3 @@
-# mini-ledger-solana-ts
-
 # TypeScript - Mini Ledger Solana
 
 ## 📌 Solution Abstract
